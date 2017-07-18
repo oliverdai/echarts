@@ -1,0 +1,97 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0;font-size:12px; color:#383838;line-height:1.8;font-family:"microsoft yahei";  }
+form,ul,li,ol,li,dl,dt,dd,img,p,h1,h2,h3,h4,h5,h6,input,table,th,tr{margin:0;padding:0; }
+h1,h2,h3,h4,h5,h6{font-size:12px;}
+input,select{font-size:12px;outline: none;}
+img{border:0;}
+ul,li{list-style-type:none;}
+strong,b{font-weight:bold;}
+em {font-style:normal;}
+h1,h2,h3,h4,h5,h6 {font-weight:normal;}
+/* Link 全局链接样式 2012.7.28 */
+a{color:#393939;text-decoration:none; cursor:pointer;}
+ 
+.display_no{display:none;}
+.display_yes{display:block;}
+.fl{float:left}
+.fr{float:right;}
+.clear{clear:both;}
+ 
+.main_top{width:100%;height:136px;}
+.main_top .mdiv{display: inline-block;width:18.743333%;height:120px;background: #fff;display: block;float:left;margin:10px 20px 0px 0;}
+.mdiv img {margin:30px 0 30px 20px;width:60px;}
+.acsur{float:right;margin-right:10px;margin-top:25px;color:#fff;width: 120px;overflow: hidden;}
+.acsur span{display: block;font-size:20px;text-align: center;}
+.acsur p{font-size:24px;text-align: center;}
+/*main_nav*/
+.main_nav{width:35%;margin:15px 0;height:150px;background: #fff;float: left;border-radius: 5px;
+box-shadow: 2px 2px 2px #ccc;}
+.comp_top{margin:5px 10px;height:30px;line-height:30px;border-bottom:1px solid  #ccc;}
+.comp_top P{font-size:16px;font-weight: bold;}
+.comp_list{margin:5px 10px;height:100px;}
+.comp_list ul li{margin-left:10px;float:left;list-style-type: none;width:120px;height:50px;margin-top:20px;border-right: 1px solid #f2f2f2;}
+.comp_list ul li:last-child{border:none;}
+.comp_list ul li p{text-align: center;font-size:24px;}
+.comp_list ul li span{display:block;text-align: center;font-size:18px;}
+.pro_bm{color:#FF9900;}
+.pro_user{color:#14ABE4;}
+.ml{float:right;}
+ 
+/*comp_xj*/
+.main_nav_cent{width:26.55555%;float:left;background: #fff;margin:15px 20px;height:150px;border-radius: 5px;
+box-shadow: 2px 2px 2px #ccc;}
+/*proj*/
+.proj{width:49.2%;background: #fff;margin-top:5px;display: inline-block;margin-bottom: 20px;border-radius: 5px;
+box-shadow: 2px 2px 2px #ccc;}
+.proj_top{margin:5px 10px;height:30px;border-bottom: 1px solid #ccc;line-height:30px;}
+.proj_top p{font-size:16px;font-weight: bold;}
+.proj_row{width:100%;margin-top:40px;clear:both;background: #fff;border-radius: 5px;
+box-shadow: 2px 2px 2px #ccc;margin-bottom: 20px;}
+ 
+/*map*/
+.pro_map{width:70%;height:490px;margin-bottom: 10px;}
+.proj_map_list{width:29%;height:490px;background: #fff;border-radius: 5px;
+box-shadow: 2px 2px 2px #ccc;margin-top:5px;}
+#map_list ul li{margin:10px 10px;height:30px;line-height: 30px;font-size:14px;border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ccc;}
+#map_list ul a{display: block;}
+#map_list ul li span{float:left;margin-left:10px;width: 40%;border-right:1px solid #ccc;}
+#map_list ul li em{font-style:normal;float:right;margin-right:10px;width:50%;height:30px;overflow: hidden;text-indent: 15px;}
+.jh{color:#D84F4B;}
+.wc{color:#FF0000;}
+.ncl{color:#0088CC;}
+.gd{color:#588EBD;}
+.gs{color:#44B6AE;}
+.zb{color:#14ABE4;}
+ 
+.list{width: 31%;height: 440px;float: right;margin-right: 10px;border-radius:5px;border:1px solid #f2f2f2;
+    box-shadow: 2px 2px 2px #ccc;}
+     
+/*排名*/
+.ranking ul li {margin:10px 20px;height:20px;line-height: 20px;font-size:16px;margin-top:20px;}
+.ranking ul li span{float:left;margin-left:10px;width: 30%;overflow: hidden;height:20px;}
+.ranking ul li em{font-style:normal;float:left;margin-left:10px;width:60%;height:20px;overflow: hidden;background: #d0ddf3;
+position: relative;display: inline-block;}
+.sp{display: inline-block;position: absolute;left:0;background: #029be5;height:20px;}
+.sp_line{display: inline-block;width: 60%;text-align: center;color: #fff;z-index: 1;position: relative;font-size:14px;}
+ 
+/*css3动画效果*/
+#cont_pro_map{
+    -moz-transition: all .2s ease-out 0s;
+            -o-transition: all .2s ease-out 0s;
+            -webkit-transition: all .2s ease-out;
+            -webkit-transition-delay: 0s;
+            transition: all .2s ease-out 0s;
+}
+#cont_city_map{
+    -moz-transition: all .2s ease-out 0s;
+            -o-transition: all .2s ease-out 0s;
+            -webkit-transition: all .2s ease-out;
+            -webkit-transition-delay: 0s;
+            transition: all .2s ease-out 0s;
+     
+}
+/*返回省级地图按钮*/
+.retPro{z-index:999;position: absolute;top:50px;left:10px;display: none;}
+.retPro a{height:30px;line-height: 30px;border:1px solid #ccc;padding:5px 10px;margin-left:20px;border-radius:5px;cursor: pointer;}
